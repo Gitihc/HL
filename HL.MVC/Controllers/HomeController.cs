@@ -10,7 +10,7 @@ namespace HL.MVC.Controllers
     {
         public IActionResult Index()
         {
-            throw new Exception("异常");
+           // throw new Exception("异常");
             return View();
         }
     }

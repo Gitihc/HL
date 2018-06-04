@@ -47,6 +47,7 @@ namespace HL.MVC
                 app.UseExceptionHandler("/Shared/Error");
             }
             app.UseStaticFiles();
+
             app.UseMvc(routes =>
             {
             routes.MapRoute(
